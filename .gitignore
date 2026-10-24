@@ -1,0 +1,9 @@
+node_modules/
+out/
+*.png
+*.svg
+
+.vercel
+.env*
+test-results/
+playwright-report/

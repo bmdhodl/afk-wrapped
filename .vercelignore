@@ -1,0 +1,17 @@
+out
+test
+node_modules
+.git
+*.png
+*.svg
+test-results
+bin
+src
+fonts
+.env*
+package.json
+package-lock.json
+README.md
+LICENSE
+.gitattributes
+.gitignore

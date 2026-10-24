@@ -1,0 +1,38 @@
+{
+  "name": "afk-wrapped",
+  "version": "0.2.0",
+  "description": "Spotify-Wrapped-style card for the work your AI coding agents did while you were away. Reads local Claude Code logs. Sends nothing unless you opt in with --rank.",
+  "type": "module",
+  "homepage": "https://bmdpat.com/wrapped",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmdhodl/afk-wrapped.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmdhodl/afk-wrapped/issues"
+  },
+  "bin": {
+    "afk-wrapped": "bin/afk-wrapped.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "fonts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "wrapped",
+    "ai-agents",
+    "cli"
+  ],
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

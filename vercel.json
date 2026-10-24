@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/w/:id", "destination": "https://bmdpat.com/wrapped/w/:id", "permanent": true },
+    { "source": "/og/:id", "destination": "https://bmdpat.com/wrapped/w/:id/opengraph-image", "permanent": true },
+    { "source": "/api/rank", "destination": "https://bmdpat.com/api/wrapped/rank", "permanent": true },
+    { "source": "/", "destination": "https://bmdpat.com/wrapped", "permanent": true },
+    { "source": "/:path*", "destination": "https://bmdpat.com/wrapped", "permanent": true }
+  ]
+}
